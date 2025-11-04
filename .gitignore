@@ -1,0 +1,28 @@
+# DVC
+.dvc/cache/
+.dvc/tmp/
+
+# models (track by dvc)
+*.onnx
+*.pkl
+embeddings.npy
+
+# env
+venv/
+.env
+__pycache__/
+
+# log
+*.log
+*.tmp
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# MLflow
+mlruns/
+
+# Docker
+*.dockerignore
